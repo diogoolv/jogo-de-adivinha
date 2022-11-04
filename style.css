@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue&family=Kanit&family=Righteous&family=Sarala&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue&family=Kanit&family=Lusitana&family=Righteous&family=Sarala&display=swap');
+
+body {
+    background-image: url(fundo2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 0 0;
+
+}
+
+.conjunto-titulo {
+    text-align: center;
+    padding: 50px;
+    font-family: 'Epilogue', sans-serif;
+}
+
+.titulo-prinicpal {
+    font-size: 29pt;
+    color: white;
+}
+
+.subtitulo-prinicpal {
+    margin-top: -25px;
+    margin-bottom: 2px;
+    font-size: 22pt;
+    color: white;
+}
+
+/* JOGO */
+
+.conteudo-jogo {
+    text-align: center;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0.67);
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0.67);
+    background-color: blue;
+    color: white;
+    margin: 20px;
+    margin-top: -5px;
+    border-radius: 50px;
+    padding: 30px;
+    font-family: 'Righteous', cursive;
+
+}
+
+
+
+footer {
+    border-width: 3px;
+    border-style: dashed;
+    border-color: rgba(28, 110, 164, 0.52);
+    border-radius: 29px;
+    text-align: center;
+    margin: 50px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.botao{
+    font-size: 24px;
+    background-color: red;
+    color: white;
+}
